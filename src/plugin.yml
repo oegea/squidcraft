@@ -1,0 +1,67 @@
+main: im.oriol.SquidCraft.Main
+name: Hello
+version: 1.0
+author: Oriol Egea
+api-version: 1.16
+
+commands:
+
+  id:
+    description: Muestra nuestro id de minecraft
+    usage: /id
+    
+  pueblo:
+    description: Te lleva al pueblo principal
+    usage: /pueblo
+    
+  mina:
+    description: Nos lleva al mundo de la mina
+    usage: /mina
+    
+  login:
+    description: Lleva a la zona de login
+    usage: /login
+  
+  auth:
+    description: Autoriza a jugar a un player
+    usage: /auth
+    
+  makeadmin:
+    description: Hace admin a un player
+    usage: /makeadmin
+  
+  creaparcela:
+    description: Permite crear una parcela
+    usage: /creaparcela
+
+  verparcelas:
+    description: Permite listar tus parcelas
+    usage: /verparcelas
+
+  ir:
+    description: Permite teleportarse a una parcela
+    usage: /ir    
+
+  eliminaparcela:
+    description: Elimina la parcela en la que nos encontramos
+    usage: /eliminaparcela
+
+  cambiaparcela:
+    description: Modifica la cantidad de bloques de una parcela
+    usage: /cambiaparcela
+
+  regeneramina:
+    description: Regenera el mapa de la mina
+    usage: /regeneramina
+
+  nuevoinquilino:
+    description: Agrega un inquilino a una parcela
+    usage: /nuevoinquilino
+
+  verinquilinos:
+    description: Muestra la lista de inquilinos de una parcela
+    usage: /verinquilinos
+
+  eliminainquilino:
+    description: Elimina un inquilino de una parcela
+    usage: /eliminainquilino
